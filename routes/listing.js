@@ -8,12 +8,6 @@ const {isLoggedIn , isOwner }= require("../middleware.js");
 
 
 
-router.get("/", (req, res) => {
-  res.redirect("/listings");
-});
-
-
-
  //index route
 
  router.get("/" , wrapAsync(async ( req , res)=>{
