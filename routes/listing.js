@@ -11,7 +11,7 @@ const {isLoggedIn , isOwner }= require("../middleware.js");
 
  //index route
 
- router.get("/" , wrapAsync(async ( req , res)=>{
+ router.get("/new" , wrapAsync(async ( req , res)=>{
      const allListings= await Listing.find({})
      res.render("./listings/index.ejs"  ,{ allListings})
 
