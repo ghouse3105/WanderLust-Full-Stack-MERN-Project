@@ -135,6 +135,10 @@ saveUninitialized: true,
 //   console.log("sample was saved")
 //   res.send("successfull testing" );
 //  })
+app.get("/", (req, res) => {
+  res.redirect("/listings");
+});
+
 app.all('/*splat', (req, res, next) => {
 
   next(new ExpressError("Page Not Found", 404));
