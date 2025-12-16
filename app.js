@@ -136,10 +136,11 @@ saveUninitialized: true,
 //   res.send("successfull testing" );
 //  })
 
-app.all("/:catchAll(*)", (req, res, next) => {
-  next(new ExpressError("Page Not Found", 404));
-});
+app.all('/*splat', (req, res, next) => {
 
+  next(new ExpressError("Page Not Found", 404));
+
+});
 
 
 
