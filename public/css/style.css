@@ -1,0 +1,73 @@
+/* body{
+    background-color: pink;
+} */
+ body{
+   font-family: "plus jakarta sans" , sans-serif !important;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+
+ }
+ .container{
+   flex: 1;
+ }
+ /* navbar */
+ .navbar{
+    height: 4rem;
+    background-color: white;
+ }
+ .fa-compass{
+    color: #fe424d;
+    font-size: x-large;
+ }
+ .nav-link{
+    color: #222222 !important;
+ }
+
+ /* fotter */
+ .f-info-links a{
+    text-decoration: none;
+    color: #222222;
+ }
+ .f-info-links a:hover{
+    text-decoration: underline;
+ }
+
+ .f-info-socials{
+    width: 100%;
+     font-size: larger;
+ }
+ .f-info-socials i{
+    margin-right: 1rem;
+ }
+ .f-info-links{
+    width: 100%;
+
+ }
+ .f-info{
+    margin-top: 2rem;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:space-evenly;
+    height: 2rem;
+    background-color: #bebebe;
+ }
+ /* styling index */
+ .fixed-img{
+    height: 200px;
+    object-fit: cover;
+ }
+ .add-btn{
+   background-color: #fe424d !important;
+   border: none !important;
+ }
+ .edit-btn{
+   background-color: #fe424d !important;
+   border: none !important;
+ }
+ .del-btn{
+   background-color: #fe424d !important;
+   border: none !important;
+ }
