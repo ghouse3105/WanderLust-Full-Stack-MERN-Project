@@ -8,7 +8,7 @@ const {isLoggedIn , isOwner }= require("../middleware.js");
 
 
 
-app.get("/", (req, res) => {
+router.get("/", (req, res) => {
   res.redirect("/listings");
 });
 
