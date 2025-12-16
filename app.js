@@ -139,11 +139,10 @@ app.get("/", (req, res) => {
   res.redirect("/listings");
 });
 
-app.all('/*splat', (req, res, next) => {
-
+app.all("*", (req, res, next) => {
   next(new ExpressError("Page Not Found", 404));
-
 });
+
 
 
 
