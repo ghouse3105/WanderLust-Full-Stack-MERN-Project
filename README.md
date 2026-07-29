@@ -113,69 +113,6 @@ WanderLust/
 - RESTful Routing
 - Responsive UI
 
----
-
-# ⚙️ Installation
-
-## Clone Repository
-
-```bash
-git clone https://github.com/ghouse3105/WanderLust-Full-Stack-MERN-Project.git
-```
-
-## Navigate to Project
-
-```bash
-cd WanderLust-Full-Stack-MERN-Project
-```
-
-## Install Dependencies
-
-```bash
-npm install
-```
-
-## Configure Environment Variables
-
-Create a `.env` file in the root directory.
-
-```env
-ATLASDB_URL=your_mongodb_connection_string
-
-SECRET=your_secret_key
-
-CLOUD_NAME=your_cloudinary_name
-
-CLOUD_API_KEY=your_cloudinary_api_key
-
-CLOUD_API_SECRET=your_cloudinary_api_secret
-```
-
-## Start Application
-
-```bash
-npm start
-```
-
-The application will run on:
-
-```
-http://localhost:3000
-```
-
----
-
-# 📸 Screenshots
-
-Add screenshots here for better presentation.
-
-- 🏠 Home Page
-- 🔐 Login Page
-- 📝 Signup Page
-- 📍 Property Details
-- ➕ Add Listing
-- ✏️ Edit Listing
-- ⭐ Reviews Section
 
 ---
 
@@ -231,11 +168,6 @@ This project helped me gain practical experience in:
 
 ---
 
-# 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome.
-
-Feel free to fork the repository and submit a Pull Request.
 
 ---
 
@@ -244,7 +176,7 @@ Feel free to fork the repository and submit a Pull Request.
 **Ghouse**
 
 - GitHub: https://github.com/ghouse3105
-- LinkedIn: *(Add your LinkedIn Profile URL)*
+- LinkedIn: https://www.linkedin.com/in/ghouse-mohammed-774b1b383/
 
 ---
 
